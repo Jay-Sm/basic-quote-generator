@@ -15,6 +15,10 @@ async function getNewQuote() {
 const button = document.querySelector("button");
 const quoteDisplay = document.querySelector("p");
 
+getNewQuote().then(() => {
+  quoteDisplay.innerHTML = quote;
+});
+
 button.addEventListener("click", () => {
   getNewQuote().then(() => {
     quoteDisplay.innerHTML = quote;
