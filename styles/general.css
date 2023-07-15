@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  background-color: #553377;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+main {
+  width: 588px;
+  height: 374px;
+  border-radius: 15px;
+  padding: 20px;
+
+  background-color: white;
+}
+
+#top {
+  text-align: center;
+}
