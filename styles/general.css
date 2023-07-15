@@ -10,6 +10,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -20,11 +22,45 @@ main {
   width: 588px;
   height: 374px;
   border-radius: 15px;
-  padding: 20px;
+  padding: 30px;
 
   background-color: white;
 }
 
 #top {
+  height: 70%;
   text-align: center;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 1.2px;
+}
+
+#bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  padding: 15px 25px;
+
+  border: none;
+  border-radius: 36px;
+  background-color: #553377;
+  cursor: pointer;
+  transition: opacity ease 0.05s;
+}
+
+button:hover{
+  opacity: 0.95;
+}
+
+button:active {
+  opacity: 0.8;
 }
