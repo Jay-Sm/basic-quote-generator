@@ -5,7 +5,7 @@ function getRandom(max) {
 }
 
 async function getNewQuote() {
-  const response = await fetch("/backend/quotes.json");
+  const response = await fetch("backend/quotes.json");
   const quotes = await response.json();
   quote = quotes[getRandom(50)];
 
